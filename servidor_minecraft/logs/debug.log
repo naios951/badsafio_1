@@ -1983,3 +1983,7 @@ java.nio.file.NoSuchFileException: server.properties
 [29Dec2024 15:49:36.702] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve lost connection: Timed out
 [29Dec2024 15:49:36.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve left the game.
 [29Dec2024 15:49:36.795] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[29Dec2024 15:51:41.157] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[29Dec2024 15:51:41.163] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[29Dec2024 15:56:41.156] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[29Dec2024 15:56:41.161] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
