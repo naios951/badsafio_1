@@ -54,7 +54,16 @@ world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
     verbose: true
-    simulation-distance: default
+    merge-radius:
+      exp: 3.0
+      item: 2.5
+    mob-spawn-range: 6
+    arrow-despawn-rate: 1200
+    trident-despawn-rate: 1200
+    zombie-aggressive-towards-villager: true
+    enable-zombie-pigmen-portal-spawns: true
+    wither-spawn-sound-radius: 0
+    end-portal-sound-radius: 0
     hanging-tick-frequency: 100
     thunder-chance: 100000
     growth:
@@ -124,19 +133,10 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    merge-radius:
-      exp: 3.0
-      item: 2.5
-    mob-spawn-range: 6
-    arrow-despawn-rate: 1200
-    trident-despawn-rate: 1200
-    zombie-aggressive-towards-villager: true
-    enable-zombie-pigmen-portal-spawns: true
-    wither-spawn-sound-radius: 0
-    end-portal-sound-radius: 0
     item-despawn-rate: 6000
     view-distance: default
     nerf-spawner-mobs: false
+    simulation-distance: default
 messages:
   restart: Server is restarting
   whitelist: You are not whitelisted on this server!
